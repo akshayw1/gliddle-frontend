@@ -57,7 +57,7 @@ const DeplyForm: React.FC<DeplyFormProps> = ({ onProjectIdReceived }) => {
     
 
     try {
-      const response = await axios.post("http://localhost:9000/project", {
+      const response = await axios.post("http://89.116.34.246:6100/project", {
         gitURL,
         slug,
       });

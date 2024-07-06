@@ -3,7 +3,7 @@ import { useState,useEffect,useCallback,useRef,useMemo } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import io from "socket.io-client"; 
 
-const socket = io("http://localhost:9002"); // Connect to your backend socket server
+const socket = io("http://89.116.34.246:9002"); // Connect to your backend socket server
 
 
 // interface Log {
