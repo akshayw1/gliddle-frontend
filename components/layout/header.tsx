@@ -10,8 +10,8 @@ export default function Header() {
       <nav className="flex h-14 items-center justify-between px-4">
         <div className="hidden lg:block">
           <Link
-            href={'https://github.com/Kiranism/next-shadcn-dashboard-starter'}
-            target="_blank"
+            href='/'
+            target="_blank" 
           >
           <h2> Glidder - Deploy with Ease
             </h2>
