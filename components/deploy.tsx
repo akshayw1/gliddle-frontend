@@ -77,6 +77,7 @@ const DeplyForm: React.FC<DeplyFormProps> = ({ onProjectIdReceived }) => {
 
       // Handle success - maybe show a success message
     } catch (error) {
+      toast.error("AWS ECS have reached its limit, Issue from server end")
       console.error("Error deploying project:", error);
       // Handle error - maybe show an error message
     }
